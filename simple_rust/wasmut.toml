@@ -1,0 +1,3 @@
+[filter]
+allowed_files = ["simple_rust/src"]
+#allowed_functions = [""]
