@@ -1,3 +1,9 @@
+[module]
+wasmfile = "test.wasm"
+
+[engine]
+threads = 8
+
 [filter]
 allowed_files = ["simple_rust/src"]
-#allowed_functions = [""]
+allowed_functions = ["simple_add"]
