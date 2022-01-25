@@ -1,7 +1,7 @@
 
 
 CC=clang
-CFLAGS=--target=wasm32-wasi --sysroot=/opt/wasi-sdk/wasi-sysroot
+CFLAGS=--target=wasm32-wasi --sysroot=/usr/share/wasi-sysroot
 
 
 SRC=factorial.c test.c

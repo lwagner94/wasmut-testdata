@@ -3,7 +3,7 @@
   (type (;1;) (func))
   (type (;2;) (func (param i32) (result i32)))
   (type (;3;) (func (result i32)))
-  (import "wasi_snapshot_preview1" "proc_exit" (func $__wasi_proc_exit (type 0)))
+  (import "wasi_snapshot_preview1" "proc_exit" (func $__imported_wasi_snapshot_preview1_proc_exit (type 0)))
   (func $_start (type 1)
     (local i32)
     block  ;; label = @1
@@ -93,6 +93,10 @@
       local.set 0
     end
     local.get 0)
+  (func $__wasi_proc_exit (type 0) (param i32)
+    local.get 0
+    call $__imported_wasi_snapshot_preview1_proc_exit
+    unreachable)
   (func $_Exit (type 0) (param i32)
     local.get 0
     call $__wasi_proc_exit

@@ -2,7 +2,8 @@
 wasmfile = "test.wasm"
 
 [engine]
-threads = 1
+#threads = 1
+timeout_multiplier = 1.5
 
 [filter]
 allowed_functions = ["^factorial"]
