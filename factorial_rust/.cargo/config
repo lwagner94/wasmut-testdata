@@ -1,0 +1,6 @@
+[target.wasm32-wasi]
+rustflags = ["-C", "opt-level=0", 
+"-C", "link-dead-code=yes", 
+"-C", "inline-threshold=1", 
+"-C", "overflow-checks=no",
+"-C", "no-redzone=yes"]

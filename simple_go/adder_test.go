@@ -10,3 +10,10 @@ func TestMultIsOkay(t *testing.T) {
        t.Errorf("Sum was incorrect, got: %d, want: %d.", total, 10)
     }
 }
+
+func TestFactorial(t *testing.T) {
+	total := Factorial(5)
+    if total != 120 {
+       t.Errorf("Error")
+    }
+}
