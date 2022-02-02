@@ -5,5 +5,5 @@ wasmfile = "test.wasm"
 threads = 8
 
 [filter]
-allowed_files = ["simple_rust/src"]
+#allowed_files = ["simple_rust/src"]
 allowed_functions = ["simple_add"]
