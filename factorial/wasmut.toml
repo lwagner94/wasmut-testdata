@@ -8,3 +8,4 @@ timeout_multiplier = 1.5
 [filter]
 allowed_functions = ["^factorial"]
 #allowed_files = ["simple_rust/src"]
+[report]

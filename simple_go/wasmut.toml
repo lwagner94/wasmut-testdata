@@ -8,3 +8,5 @@ timeout_multiplier = 20
 [filter]
 #allowed_functions = ["TestAdd2"]
 allowed_files = ["adder.go"]
+
+[report]
