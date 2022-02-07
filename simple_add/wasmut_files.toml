@@ -1,0 +1,11 @@
+[module]
+wasmfile = "test.wasm"
+
+[engine]
+threads = 8
+
+[filter]
+#allowed_functions = ["^add"]
+allowed_files = ["simple_add/simple_add.c"]
+
+[report]
