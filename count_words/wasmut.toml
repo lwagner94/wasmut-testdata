@@ -3,6 +3,3 @@ map_dirs = [["testdata/count_words/files", "files"],]
 
 [filter]
 allowed_functions = ["^count_words"]
-#allowed_files = ["simple_rust/src"]
-
-[report]

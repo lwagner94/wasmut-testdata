@@ -1,11 +1,2 @@
-[module]
-wasmfile = "test.wasm"
-
-[engine]
-threads = 8
-
 [filter]
-#allowed_files = ["factorial_rust/src"]
 allowed_functions = ["factorial_rust::factorial", "factorial_rust::factorial_iter"]
-
-[report]
