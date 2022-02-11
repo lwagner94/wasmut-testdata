@@ -1,2 +1,6 @@
 [filter]
 allowed_functions = ["^factorial"]
+
+
+[report]
+path_rewrite = ["^.*/wasmut/", ""]

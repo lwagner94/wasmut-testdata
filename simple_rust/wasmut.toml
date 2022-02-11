@@ -1,2 +1,5 @@
 [filter]
 allowed_functions = ["simple_add"]
+
+[report]
+path_rewrite = ["^.*/wasmut/", ""]

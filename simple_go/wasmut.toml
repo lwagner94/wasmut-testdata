@@ -1,2 +1,5 @@
 [filter]
-allowed_files = ["adder.go"]
+allowed_files = ["adder.go", "adder_test.go"]
+
+[report]
+path_rewrite = ["^.*/wasmut/", ""]

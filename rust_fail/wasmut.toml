@@ -1,2 +1,5 @@
 [filter]
 allowed_files = ["simple_rust/src"]
+
+[report]
+path_rewrite = ["^.*/wasmut/", ""]
