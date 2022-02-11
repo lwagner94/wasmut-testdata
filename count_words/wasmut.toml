@@ -3,3 +3,6 @@ map_dirs = [["testdata/count_words/files", "files"],]
 
 [filter]
 allowed_functions = ["^count_words"]
+
+[report]
+path_rewrite = ["^.*/wasmut/", ""]
