@@ -1,0 +1,6 @@
+
+[filter]
+#allowed_functions = ["^$"]
+
+[report]
+path_rewrite = ["^.*/wasmut/", ""]
