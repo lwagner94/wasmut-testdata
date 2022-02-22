@@ -1,0 +1,5 @@
+[filter]
+allowed_functions = ["^count_words"]
+
+[report]
+path_rewrite = ["^.*/wasmut/", ""]
